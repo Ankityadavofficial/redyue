@@ -5,7 +5,16 @@ export default function Home() {
     return (
         <>
             {/* First section start */}
-            <div className="bg-[url('images/45.png')] relative w-full h-[484px] bg-no-repeat bg-cover">
+            <div
+          className="text-center relative "
+          style={{
+            backgroundImage: "url('images/45.png')",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "bottom",
+            height: "470px",
+          }}
+        >
                 <h1 className='text-white text-3xl font-bold mx-[84px] pt-[136px]'>Private Transfer & Taxi services
                     <br />in Geneva</h1>
                 <h1 className='text-white text-2xl mx-[84px] pt-[20px]'>Book airport transfers, city transfers and hourly
